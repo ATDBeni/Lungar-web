@@ -1,0 +1,259 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  } */
+  /* nav */
+  .main-nav {
+    color: black;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 16px;
+  }
+  
+  /* .nav-links li a:hover {
+    color: #0183e9;
+    background-color: black;
+    transition: background-color 0.5s ease;
+  } */
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 576px) {
+    .main-nav {
+      height: 50px;
+    }
+  
+    .nav-toggle {
+      display: block;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  
+    .bar {
+      width: 30px;
+      height: 3px;
+      margin: 5px;
+      background-color: black;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      background-color:white;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      display: none;
+    }
+  
+    .nav-links li a {
+      width: 100%;
+    }
+  
+    .active {
+      display: flex;
+    }
+  }
+  .section1{
+    background-color: lightblue;
+    
+  }
+  
+  .back1{
+    
+    background-color: lightblue;
+  }
+  .imghome{
+margin-left: 700px;
+}
+  .imghome1{
+ 
+    width: 500px;
+    height: 300px;
+  }
+  .tols{
+    margin-top: -170px;
+    margin-left: 70px;
+  }
+  .title1{
+    font-size: 70px;
+   }
+  /* .photo1{
+    height: 40rem
+    
+  } */
+  .container {
+    display: flex;
+  }
+.photo1{
+height: 43rem;
+
+margin-right: 0;
+}
+
+  
+   .img2{
+    height: 500px;
+width:500px;
+ 
+   }
+   .imgclass{
+    margin-left: 100px;
+   }
+   .paragraf{
+
+display: flex;
+ }
+ .title2{
+    font-size: 50px;
+margin-left: 50px; 
+font-family: "Mulish";
+
+}
+.first-para{
+    margin-left: 50px;
+    color: grey;
+}
+ .totoal{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  }
+   
+  
+   
+  .container {
+    display: flex;
+   float: right;
+   margin-right: 50px;
+   }
+  
+  .arrow-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    color: lightblue;
+   
+  }
+  .casesir{
+    display: flex;
+    margin-left: 50px;
+ 
+   }
+  .casesir img{
+margin-right: 20px;
+ width: 310px;
+ margin-top: 100px;
+  }
+ .tichet{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-top: -30px;
+ }
+ .tichet1{
+  background-color: white;
+ }
+ .feedbackp{
+  display: flex;
+ }
+ .imgfeedback{
+  margin-left: 70px;
+  margin-top: 90px;
+ }
+ .feedback2{
+  margin-left: 100px;
+  margin-top: 130px;
+
+ }
+ .contact{
+  display: flex;
+ }
+ .imgcontact{
+  margin : 70px;
+ }
+ .labelcontact{
+  margin-left: 30px;
+  margin-top: 50px;
+ 
+ }
+ input{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  outline: none;
+     }
+   textarea{
+    width: 440px;
+    border: 1px solid gray;
+    outline: none;
+
+
+   }
+   button{
+    background-color:   #1E3240;
+color: white;
+width: 100px;
+height: 50px;
+margin-top: 20px;
+    
+   }
+   .footer{
+    display: flex;
+    background-color: #1E3240;
+    color: white;
+    height: 400px;
+    
+   }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul li{
+  list-style: none;
+  }
+  .footer1{
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .footer2{
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  .footer3   {
+    margin-top: 100px;
+  }
+  .footer4{
+    margin-top: 100px;
+  }
