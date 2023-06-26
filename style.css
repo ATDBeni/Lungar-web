@@ -180,6 +180,7 @@ font-family: "Mulish";
   .casesir{
     display: flex;
     margin-left: 50px;
+    height: 100%;
  
    }
   .casesir img{
