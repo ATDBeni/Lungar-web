@@ -375,27 +375,49 @@ height: auto;
       width: 150px;
       height: 150px;
     }
+    .title1{
+      font-size: 30px;
+      width: 300px;
+    
+    }
+    .para1{
+      width: 300px;
+    }
+
   }
   @media (max-width: 400px){
+    .imghome1{
+      width: 200px;
+      height: 250px;
+    }
+
+  
 .title1{
   font-size: 30px;
   width:300px
 
 }
 .para1{
-  width: 300px;
-}
-.imghome1{
 width: 200px;
-height: 200px;
+  
 }
 .Projectbooton{
+   margin-top: 0px;
 width: 120px;
 height: 50px;
 }
 .cotactbooton{
-  width: 120px;
+
+     width: 120px;
 height: 50px;
+padding-left: 20px;
+padding-right: 20px;
 }
+.title1{
+  font-size: 30px;
+
+}
+
+ 
 
   }
