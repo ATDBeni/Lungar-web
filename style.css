@@ -329,7 +329,13 @@ font-size:27px;
     }
     .tols{
       position: absolute;
-      top: 0;
-      margin-top: 0;
+       top: 0;
+       bottom: auto;
+      
+           
+     margin: auto;
+     transform: translateY(calc(50% - 200px));  
+  width: 200px;  
+  height: 200px; 
     }
   }
