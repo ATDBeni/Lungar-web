@@ -45,7 +45,7 @@
     display: none;
   }
   
-  @media (max-width: 576px) {
+  @media (max-width: 600px) {
     .main-nav {
       height: 50px;
     }
@@ -84,6 +84,7 @@
  
   }
   .section1{
+   
     background-color: lightblue;
     
   }
@@ -98,13 +99,15 @@ justify-content: flex-end;
 }
   .imghome1{
  
-    width: 500px;
-    height: 618px;
+    width: 400px;
+    height: 500px;
+    
   }
   .tols{
-    margin-top: -600px;
-    margin-left: 70px;
+     margin-left: 70px;
     display: flex;
+     position: absolute;
+     top: 90px;
 
   }
   /* .sageata2{
@@ -114,9 +117,9 @@ justify-content: flex-end;
   .segata1{
     display: flex;
    } */
-  .section1{
+  /* .section1{
     height: 700px;
-  }
+  } */
   .title1{
     font-size: 70px;
     width: 430px;
@@ -305,8 +308,6 @@ margin-top: 20px;
     .title1{
       font-size: 50px;
       width: 500px;
-        
-
     }
     .buton{
       display: flex;
@@ -325,5 +326,10 @@ margin-top: 20px;
     .para1{
 font-size:27px;
  width: 450px;
+    }
+    .tols{
+      position: absolute;
+      top: 0;
+      margin-top: 0;
     }
   }
