@@ -133,41 +133,48 @@ justify-content: flex-end;
   } */
   .container {
     display: flex;
+     
   }
 .photo1{
 height: 43rem;
 
 margin-right: 0;
 }
-
-  
-   .img2{
-    height: 500px;
-width:500px;
- 
-   }
-   .imgclass{
-    margin-left: 100px;
-   }
-   .paragraf{
-
-display: flex;
- }
- .title2{
-    font-size: 50px;
-margin-left: 50px; 
-font-family: "Mulish";
-
+.titlusec2{
+  font-size: 30px;
+  width: 300px;
 }
-.first-para{
-    margin-left: 50px;
-    color: grey;
-}
- .totoal{
+ .section2{
   display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
+  margin-top: 50px;
+ }
+ .total{
+  display: flex;
+   
+ }
+ .p1{
+  padding-right: 30px;
+ }
+ .p2{
+  padding-right: 30px;
+ }
+ .textsec2{
+  width: 400px;
+ }
+  .paragrafsec2{
+    margin-left: 100px;
+    margin-top: 50px;
+
   }
+  .imaginesec2{
+    margin-left: 40px;
+  }
+ 
+  
+    
+ 
+ 
+ 
    
   
    
@@ -292,12 +299,9 @@ margin-top: 20px;
   .footer4{
     margin-top: 100px;
   }
+  /* de la 600 in jos tablete etc */
   @media (max-width: 600px) {
-    .section{
-      width: 100%;
-      height: 100%;
-     }
-
+   
 
     .imghome{
       
@@ -346,9 +350,7 @@ font-size:27px;
   width: 200px;  
   height: 200px; 
     }
-    .section2{
-      display: none;
-    }
+    
     .section3{
       display: none;
     }
@@ -369,7 +371,13 @@ font-size:27px;
 width: auto;
 height: auto;
     }
+    .section2{
+      display: flex;
+      flex-direction: column;
+    }
+    
   }
+  /* de la 500 in jos */
   @media(max-width:500px){
     .imghome1{
       width: 150px;
@@ -383,8 +391,20 @@ height: auto;
     .para1{
       width: 300px;
     }
+    .section2{
+      display: flex;
+      flex-direction: column;
+    }
+ 
+  
+    .section2{
+      display: flex;
+      flex-direction: column;
+    }
+    
 
   }
+  /* de la 400 in joss */
   @media (max-width: 400px){
     .imghome1{
       width: 200px;
@@ -418,6 +438,22 @@ padding-right: 20px;
 
 }
 
+ .imaginesec1{
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+ }
+ .textsec2{
+  width: 300px;
+ }
+  .paragrafsec2{
+margin-left: 20px;
+ }
+ }
+ 
+ 
  
 
-  }
+ 
+
+  
