@@ -376,6 +376,7 @@ height: auto;
       flex-direction: column;
     }
     
+    
   }
   /* de la 500 in jos */
   @media(max-width:500px){
@@ -401,7 +402,17 @@ height: auto;
       display: flex;
       flex-direction: column;
     }
-    
+    .imaginesec1{
+      width: 300px;
+      height: 300px;
+      margin-left: 20px;
+     }
+     .textsec2{
+      width: 300px;
+     }
+      .paragrafsec2{
+    margin-left: 20px;
+     }
 
   }
   /* de la 400 in joss */
