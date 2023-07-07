@@ -356,13 +356,6 @@ font-size:27px;
   height: 200px; 
     }
     
-    
-    .section4{
-      display: none;
-    }
-    .section5{
-      display: none;
-    }
     footer{
       display: none;
     }
@@ -389,6 +382,24 @@ height: auto;
      .apatracasa{
     max-width: 400px;
      }
+     .feedbackp{
+      display: flex;
+     flex-direction: column;
+    }
+    .imgfeedback{
+     margin-left: 40px;
+     margin-top: 10px;
+    }
+   .imgfeed{
+      
+width: 300px;
+height: 300px;
+margin-left: 0;
+   }
+.feedback2{
+ margin-top: 30px;
+ margin-left: 30px;
+}
 
     
   }
@@ -437,9 +448,48 @@ height: auto;
      }
      .apatracasa{
     max-width: 400px;
+    
      }
-      
-
+     .feedbackp{
+       display: flex;
+      flex-direction: column;
+     }
+     .imgfeedback{
+      margin-left: 40px;
+      margin-top: 10px;
+     }
+    .imgfeed{
+       
+width: 300px;
+height: 300px;
+margin-left: 0;
+    }
+.feedback2{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.imgcontact{
+ margin-left: 30px;
+ margin-bottom: 0;
+}
+.imgcon{
+  width: 300px;
+  height: 300px;
+}
+   .labelcontact{
+    margin-top: 0px;
+   }   
+.textarea{
+  width:300px;
+}
+.btn{
+  width: 90px;
+  height: 40px;
+}
   }
   /* de la 400 in joss */
   @media (max-width: 400px){
@@ -497,6 +547,24 @@ margin-left: 20px;
  .apatracasa{
 max-width: 400px;
  }
+ .feedbackp{
+  display: flex;
+ flex-direction: column;
+}
+.imgfeedback{
+ margin-left: 40px;
+ margin-top: 10px;
+}
+.imgfeed{
+  
+width: 300px;
+height: 300px;
+margin-left: 0;
+}
+.feedback2{
+margin-top: 30px;
+margin-left: 30px;
+}
 
  }
  
