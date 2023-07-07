@@ -378,6 +378,17 @@ height: auto;
       display: flex;
       flex-direction: column;
     }
+       
+    .casesir{
+      display: flex;
+      flex-direction: column;
+     }
+     .container{
+      display: none;
+     }
+     .apatracasa{
+    max-width: 400px;
+     }
 
     
   }
@@ -425,7 +436,7 @@ height: auto;
       display: none;
      }
      .apatracasa{
-      width: 300px;
+    max-width: 400px;
      }
       
 
@@ -474,6 +485,17 @@ padding-right: 20px;
  }
   .paragrafsec2{
 margin-left: 20px;
+ }
+    
+ .casesir{
+  display: flex;
+  flex-direction: column;
+ }
+ .container{
+  display: none;
+ }
+ .apatracasa{
+max-width: 400px;
  }
 
  }
