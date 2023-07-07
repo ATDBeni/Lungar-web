@@ -304,6 +304,9 @@ margin-top: 20px;
   .footer4{
     margin-top: 100px;
   }
+  .copyy{
+    display: none;
+  }
   /* de la 600 in jos tablete etc */
   @media (max-width: 600px) {
    
@@ -356,9 +359,7 @@ font-size:27px;
   height: 200px; 
     }
     
-    footer{
-      display: none;
-    }
+   
     .back1{
       width: auto;
       width: auto;
@@ -400,6 +401,62 @@ margin-left: 0;
  margin-top: 30px;
  margin-left: 30px;
 }
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.imgcontact{
+ margin-left: 30px;
+ margin-bottom: 0;
+}
+.imgcon{
+  width: 300px;
+  height: 300px;
+}
+   .labelcontact{
+    margin-top: 0px;
+   }   
+.textarea{
+  width:300px;
+}
+.btn{
+  width: 90px;
+  height: 40px;
+}
+.footer{
+  height: 700px;
+  margin-top: 30px;
+   display: flex;
+  flex-direction: column;
+ }
+ .titlefooter{
+  color: black;
+ }
+ .footer1{
+  margin-top: 0;
+  margin-left: 60px;
+ }
+ .footer2{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer3{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer4{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .Copyright{
+  display: none;
+ }
+ .copyy{
+  display: block;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
 
     
   }
@@ -490,6 +547,40 @@ margin-left: 0;
   width: 90px;
   height: 40px;
 }
+ 
+ .footer{
+  height: 700px;
+  margin-top: 30px;
+   display: flex;
+  flex-direction: column;
+ }
+ .titlefooter{
+  color: black;
+ }
+ .footer1{
+  margin-top: 0;
+  margin-left: 60px;
+ }
+ .footer2{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer3{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer4{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .Copyright{
+  display: none;
+ }
+ .copyy{
+  display: block;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
   }
   /* de la 400 in joss */
   @media (max-width: 400px){
@@ -565,6 +656,62 @@ margin-left: 0;
 margin-top: 30px;
 margin-left: 30px;
 }
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.imgcontact{
+ margin-left: 30px;
+ margin-bottom: 0;
+}
+.imgcon{
+  width: 300px;
+  height: 300px;
+}
+   .labelcontact{
+    margin-top: 0px;
+   }   
+.textarea{
+  width:300px;
+}
+.btn{
+  width: 90px;
+  height: 40px;
+}
+.footer{
+  height: 700px;
+  margin-top: 30px;
+   display: flex;
+  flex-direction: column;
+ }
+ .titlefooter{
+  color: black;
+ }
+ .footer1{
+  margin-top: 0;
+  margin-left: 60px;
+ }
+ .footer2{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer3{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .footer4{
+  margin-top: 10px;
+  margin-left: 30px;
+ }
+ .Copyright{
+  display: none;
+ }
+ .copyy{
+  display: block;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
 
  }
  
