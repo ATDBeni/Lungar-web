@@ -416,14 +416,15 @@ height: auto;
       .paragrafsec2{
     margin-left: 20px;
      }
-     .totalsec3{
-      display: flex;
-       
-     }
-     .section3{
+     
+     .casesir{
       display: flex;
       flex-direction: column;
      }
+     .container{
+      display: none;
+     }
+      
 
   }
   /* de la 400 in joss */
