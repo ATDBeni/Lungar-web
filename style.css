@@ -274,7 +274,7 @@ ul li {
 /* de la 600 in jos tablete etc */
 @media (max-width: 600px) {
   .imghome {
-    margin-top: 50%;
+    margin-top: 43%;
     right: 0;
   }
   .imghome1 {
@@ -537,8 +537,8 @@ ul li {
 /* de la 400 in joss */
 @media (max-width: 400px) {
   .imghome1 {
-    width: 200px;
-    height: 250px;
+    width: 55%;
+    height: 247px;
   }
 
   .title1 {
